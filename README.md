@@ -1,6 +1,6 @@
 # Design-Portfolio
 My main portfolio.
-See it live [here.](https://andrejap.github.io/Portfolio/)
+See it live [here.](https://andrejap.github.io/Design-Portfolio/)
 
 <img src="img/design-portfolio-screenshot.png" alt="screenshot">
 
