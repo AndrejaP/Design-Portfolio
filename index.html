@@ -1,0 +1,141 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Muscular Hydrostat</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+</head>
+
+<body class="dark">
+    <div id="container"></div>
+    <div class="foreground">
+        <header>
+            <h1 id="first-line"> Hi, I'm Andreja.</h1>
+            <span id="grad1">I'm a designer.</span>
+            <h1 id="second-line"> I also draw, paint, code, animate, dance and learn.</h1>
+            <a class="link" href="#portfolio">Work</a>
+            <a id="contact-button" href="#contact">Contact</a>
+            <div class="img-container">
+                <img src="img/logoLighter.gif" alt="green ostrich">
+            </div>
+        </header>
+    </div>
+    <main>
+        <div id="portfolio" class="projects">
+            <!--I used div as a container for the flexbox, only for styling purposes-->
+            <article class="project game">
+                <div class="content">
+                    <a href="https://andrejap.github.io/Memory-Game/" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="project-img" src="img/memory-Game.PNG" alt="Memory game">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">Javascript<br />CSS<br />Oil on Canvas</h3>
+                        </div>
+                    </a>
+                </div>
+                <h2>Memory Game</h2>
+                <a class="link" href="https://github.com/AndrejaP/Memory-Game" target="game">See on GitHub</a>
+                &nbsp;
+                <a href="https://andrejap.github.io/Memory-Game/" target="game"> Play</a>
+            </article>
+            <article class="project portfolio">
+                <div class="content">
+                    <a href="https://my-art-shop.netlify.app/" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="project-img" src="img/art-shop.png" alt="art shop">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">React <br />Context API<br />Netlify</h3>
+                        </div>
+                    </a>
+                </div>
+                <h2>E-commerce Art Shop</h2>
+                <a href="https://my-art-shop.netlify.app/" target="beasts">See live</a>
+            </article>
+            <!--
+            <article class="project app">
+                <div class="content">
+                    <a href="https://github.com/AndrejaP/Restaurant-App" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="project-img" src="img/reviews.jpg" alt="Two horses and a hand offering grass">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">progressive-web-app<br />javascript<br />service-worker<br />a11y
+                            </h3>
+                        </div>
+                    </a>
+                </div>
+                <h2>Restaurant App</h2>
+                <a href="https://github.com/AndrejaP/Restaurant-App" target="app">See on GitHub</a>
+            </article>
+        -->
+            <article class="project mentorship">
+                <div class="content">
+                    <a href="https://github.com/AndrejaP/Mentorship-Website-Design-in-Figma" target="Mentorship">
+                        <div class="content-overlay"></div>
+                        <img class="project-img" src="img/redi.png" alt="Screenshot of the website">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">UX/UI Design<br />Figma</h3>
+                        </div>
+                    </a>
+                </div>
+                <h2>Mentorship Website</h2>
+                <a href="https://www.youtube.com/watch?v=rOwtY2WfAbM&feature=youtu.be" target="app">See a video</a>
+            </article>
+            <article class="project dating">
+                <div class="content">
+                    <a href="https://github.com/AndrejaP/WTMB-Fullstack-Javascript-course" target="_blank">
+                        <div class="content-overlay"></div>
+                        <img class="project-img" src="img/max-und-moritz.png" alt="Restaurant app homepage">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">UX/UI Design<br />Figma</h3>
+                        </div>
+                    </a>
+                </div>
+                <h2>Dating Website</h2>
+                <a href="https://jscc19-at-long-last-frontend.herokuapp.com/" target="app">See live</a>
+            </article>
+            <article class="project RPS">
+                <div class="content">
+                    <a href="https://andrejap.github.io/Portfolio/" target="portfolio">
+                        <div class="content-overlay"></div>
+                        <img class="project-img" src="img/RPS.png" alt="Screenshot of the game">
+                        <div class="content-details fadeIn-bottom">
+                            <h3 class="content-title">HTML<br />CSS</br>JavaScript</br>Sketch.js</h3>
+                        </div>
+                    </a>
+                </div>
+                <h2>Creative Portfolio</h2>
+                <a href="https://andrejap.github.io/Portfolio/" target="app">See live</a>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <address>
+            <p><a id="contact" href="mailto:andreja.prpic@gmail.com">andreja.prpic@gmail.com</a>
+                <a href="https://www.linkedin.com/in/andreja-prpic-a869866/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/AndrejaP" target="github"><i class="fab fa-github"></i></a></p>
+        </address>
+        <p>&copy; 2019 Andreja Prpic</p>
+    </footer>
+    <script type="text/javascript">
+        function ani() {
+            let classList = document.getElementById('contact').classList;
+            classList.remove('contactAnimation');
+            classList.add('contactAnimation');
+        }
+        document.getElementById('contact-button').addEventListener('click', function (event) {
+            ani();
+        });
+    </script>
+    <script src="js/sketch.js"></script>
+    <script src="js/tentacles.js"></script>
+</body>
+
+</html>
