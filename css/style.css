@@ -171,8 +171,8 @@ main {
 }
 
 .projects {
-	padding-top: 1em;
-	max-width: 1050px;
+	padding-top: 2em;
+	max-width: 900px;
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
@@ -368,7 +368,7 @@ footer {
 	animation-iteration-count: 1;
 	transform-origin: bottom;
 	animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
-	animation-delay: 1.5s;
+	animation-delay: 1s;
 }
 
 /* ================= animations ============== */
