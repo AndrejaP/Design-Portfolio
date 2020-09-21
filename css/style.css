@@ -12,9 +12,9 @@ html, body {
     /*height: 100vh;*/
 	font-family: 'Montserrat', sans-serif;	
 	font-size: 18px;
-	background:  rgb(37, 37, 37);
+	background:  rgb(76 74 74);
 	margin: 0;
-	color: #7f807f;
+	color: #8f908f;
 	box-sizing: border-box;
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -557,6 +557,11 @@ footer {
 }
 
 @media screen and (max-width: 700px) {
+
+	html.dark, body.dark {
+		background:	#383737;
+		color: #afb1af;
+	}
 	
 	.content {
 		width: 100%;
@@ -606,7 +611,7 @@ footer {
 	}
 	
 	.foreground a {
-    	margin: 0 1.8em;
+		margin: 0.7em 5em;	
 	}
 }
 
@@ -620,3 +625,8 @@ footer {
 	}
 }
 
+@media screen and (max-width: 330px) {
+	header {
+		padding: 0;
+	}
+}
