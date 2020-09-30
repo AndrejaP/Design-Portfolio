@@ -79,6 +79,7 @@ header {
 }
 
 #second-line {
+	color: #B5B5B5;
 	margin-bottom: 1.5em;
 	margin-left: 3px;
 	font-size: 0.84em;
@@ -123,7 +124,7 @@ h2 {
 
 article a,
 header a {
-	color:#4da6ff;
+	color: #66B3FF;
 }
 
 #first-line {
